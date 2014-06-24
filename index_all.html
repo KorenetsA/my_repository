@@ -1,0 +1,194 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Passbook</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="robots" content="index, follow" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width">
+<link href="/style.css" rel="stylesheet" type="text/css" />    
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" ></script>
+<script>
+$(document).ready( 
+	function(){
+		
+		$('.brand_icons ul').delegate('li:not(.current)', 'click', function() {
+			$(this).addClass('current').siblings().removeClass('current')
+			.parents('div.section').find('div.box').hide().eq($(this).index()).fadeIn(150);
+		});
+		
+	
+	}); 
+</script>
+</head>
+<body id="passbook">
+
+	<div id="header">
+		<div id="wrap_header">	
+			<div id="logo"><a href="http://inventive.ru/"></a></div>
+			<div id="top_info"><h1>Ваша карта почётного клиента</h1></div>
+			<div class="clear"></div>
+		</div>
+	</div>
+	<div id="body">
+		<div id="main" class="clearfix"> 
+			<section id="content" class="android">
+				<div class="mobile_left_margin">
+					<p class="duplicat_text">
+						Установите на смартфон электронный<br class="br_less_640" /> дубликат вашей<br class="br_more_640" />
+						карты почётного<br class="br_less_640" />  клиента №<span>123456789</span>.<br />
+						Копите бонусы и совершайте будущие<br class="br_less_640" />  покупки с выгодой.<br class="br_more_640" />
+					</p>
+					<div class="phones"></div>
+				</div>
+				<div class="section">
+					<div class="brand_icons">
+						<ul>
+							<li class="ios_logo current"><span></span></li>
+							<li class="android_logo"><span></span></li>
+							<li class="windows_logo"><span></span></li>
+						</ul>
+						<div class="clear"></div>
+					</div>
+					<div class="text box visible ios">
+						<div class="div_less_640"><img src="/image/install.png" alt="" /></div>
+						<h2 class="first">Как установить карту на iPhone</h2>
+
+						<div class=" div_img">
+							<a href="" class="download add_passbook br_more_640"></a>
+							<p>Чтобы следить за бонусным балансом*,<br class="br_more_640" /> коснитесь значка «Добавить в Passbook».</p>
+						</div>
+						<div class="div_img_big">
+							<a href=""><img src="/image/add_passbook_img_big.png" alt="" style="margin-right:80px;" /></a>
+							<a href=""><img src="/image/download_img_big.png" alt="" /></a>
+						</div>					
+						<div class="div_img">
+							<a href="" class="download download_img br_more_640 "></a>
+							<p>Карту можно сохранить как изображение в фотогалерею. В этом случае вы не сможете узнать бонусный баланс.</p>
+						</div>
+						
+						<p style="color:#656565;">*На iPhone должна быть установлена iOS 6 или более новая.<br class="br_more_640" />
+							Если вы открыли эту страницу на Mac под управлением OS X 10.8<br class="br_more_640" />
+							и выше, и щелкнули по «Добавить в Passbook» и ваш iPhone и Mac<br class="br_more_640" />
+							настроены на одну учетную запись iCloud,<br class="br_more_640" /> то карта автоматически попадет на iPhone.</p>
+						
+						<div class="div_less_640"><img src="/image/balans.png" alt="" /></div>
+						<h2>Как проверить бонусный баланс</h2>
+						<p>
+							Карта почётного клиента в формате Passbook автоматически<br class="br_more_640" />
+							обновляется на следующий день после совершения вами покупки.<br class="br_more_640" />
+							Обратите внимание, что бонусный балланс отображает общее<br class="br_more_640" />
+							количество бонусов. По условиям программы активация бонусов<br class="br_more_640" />
+							после покупки происходит в течение 14 календарных дней.<br class="br_more_640" />
+							То есть использовать их как скидку для новых покупок можно<br class="br_more_640" />
+							только по истечении этого периода.
+						</p>
+						
+						<div class="div_less_640"><img src="/image/circle.png" alt="" /></div>
+						<h2>Не разобрались? <span class="br_less_640"><br />Позвоните нам</span></h2>
+						<p class="bottom_phone"><span class="br_more_640">Позвоните нам:</span> <font style="color:#fff;">8 800 700-19-44</font></p>
+
+						<div class="div_less_640"><img src="/image/usloviya.png" alt="" /></div>
+						<h2>Условия программы</h2>
+						<p>Ознакомьтесь с подробным описанием <a href="http://inventive.ru/bonuses/" target="_blank">бонусной программы.</a></p>
+					</div>					
+					<div class="text box android">
+						<div class="div_less_640"><img src="/image/install.png" alt="" /></div>
+						<h2 class="first">Как установить карту на смартфон</h2>
+						<p>Чтобы следить за бонусным балансом,<br class="br_less_640" /> выполните несколько <br class="br_more_640" />простых шагов:</p>
+						<ul>	
+							<li><strong class="br_more_640">–</strong> <span>Установите из интернет-магазина<br class="br_less_640" /> Google Play<br class="br_more_640" />
+							   приложение <a href="https://play.google.com/store/apps/details?id=com.attidomobile.passwallet">PassWallet</a>.</span></li>
+							<li><strong class="br_more_640">–</strong> <span>Откройте эту страницу в браузере<br class="br_less_640" /> на смартфоне.</span></li>
+							<li><strong class="br_more_640">–</strong> <span>Коснитесь значка «Добавить в Passbook».</span></li>
+							<li><strong class="br_more_640">–</strong> <span>Коснитесь в окне «Выполнить действие<br class="br_less_640" /> с помощью»<br class="br_more_640" />
+							   значка приложения PassWallet.</span></li>
+						</ul>
+						<div class="div_img_big">
+							<a href=""><img src="/image/add_passbook_img_big.png" alt="" style="margin-right:80px;" /></a>
+							<a href=""><img src="/image/download_img_big.png" alt="" /></a>
+						</div>
+						<div class="br_more_640 div_img">
+							<a href="" class="download add_passbook"></a>
+							<span>Подробная <a href="https://support.google.com/googleplay/">инструкция</a> по тому, как загружать<br /> приложения из магазина Google Play.</span>
+						</div>
+						<p>Карту можно сохранить как изображение<br class="br_less_640" /> в фотогалерею. <br class="br_more_640" />В этом случае вы не сможете узнать бонусный баланс.</p>
+						<div class="br_more_640 div_img">
+							<a href="" class="download download_img"></a>
+							<span>Откройте эту страницу на смартфоне<br /> и коснитесь значка «Загрузить изображение».</span>
+						</div>
+
+						<div class="div_less_640"><img src="/image/balans.png" alt="" /></div>
+						<h2>Как проверить бонусный баланс</h2>
+						<p>
+							Карта почётного клиента в формате Passbook автоматически<br class="br_more_640" />
+							обновляется на следующий день после совершения вами покупки.<br class="br_more_640" />
+							Обратите внимание, что бонусный балланс отображает общее<br class="br_more_640" />
+							количество бонусов. По условиям программы активация бонусов<br class="br_more_640" />
+							после покупки происходит в течение 14 календарных дней.<br class="br_more_640" />
+							То есть использовать их как скидку для новых покупок можно<br class="br_more_640" />
+							только по истечении этого периода.
+						</p>
+						
+						<div class="div_less_640"><img src="/image/circle.png" alt="" /></div>
+						<h2>Не разобрались? <span class="br_less_640"><br />Позвоните нам</span></h2>
+						<p class="bottom_phone"><span class="br_more_640">Позвоните нам:</span> <font style="color:#fff;">8 800 700-19-44</font></p>
+
+						<div class="div_less_640"><img src="/image/usloviya.png" alt="" /></div>
+						<h2>Условия программы</h2>
+						<p>Ознакомьтесь с подробным описанием <a href="http://inventive.ru/bonuses/" target="_blank">бонусной программы.</a></p>
+					</div>
+					<div class="text box windows">
+					
+						<div class="div_less_640"><img src="/image/install.png" alt="" /></div>
+						<h2 class="first">Как установить карту на смартфон</h2>
+						<p>Карту можно установить как изображение на любой смартфон. <br class="br_more_640" />В этом случае вы не сможете узнать бонусный баланс.<br /><span class="br_less_640 ">Откройте эту страницу на смартфоне<br /> и коснитесь значка «Загрузить изображение».</span></p>
+						<div class="div_img">
+							<a href="" class="download download_img"></a>
+							<span class="br_more_640 ">Откройте эту страницу на смартфоне<br /> и коснитесь значка «Загрузить изображение».</span>
+						</div>
+						
+						
+						<div class="div_less_640"><img src="/image/balans.png" alt="" /></div>					
+						<h2>Как проверить бонусный баланс</h2>
+						<p>
+						В настоящее временя на платформе Windows Phone есть<br class="br_more_640" />
+						ограничение по поддержке электронных карт в формате Passbook.<br class="br_more_640" />
+						Есть платное приложение Wallet Pass, которое может отображать
+						баланс в момент установки карты на смартфон, но не может автоматически его обновлять.
+						</p>
+						<ul>	
+							<li><strong class="br_more_640">–</strong> <span>Вы можете установить из магазина Windows Phone <br class="br_more_640" />
+								приложение <a href="http://www.windowsphone.com/ru-ru/store/app/wallet-pass/61e56c4f-08e0-4427-af8d-7253603353cb">Wallet Pass</a> (приложение платное).</span></li>
+							<li><strong class="br_more_640">–</strong> <span>Откройте эту страницу в браузере на смартфоне.</span></li>
+							<li><strong class="br_more_640">–</strong> <span>Коснитесь значка «Добавить в Passbook».</span></li>
+							<li><strong class="br_more_640">–</strong> <span>Выберите в списке приложений Wallet Pass.</span></li>
+							<li><strong class="br_more_640">–</strong> <span>Коснитесь значка с изображением дискеты<br />
+								в нижней части экрана, чтобы сохранить карту.</span></li>
+						</ul>
+						<div class=" div_img">
+							<a href="" class="download add_passbook"></a>
+							<span>Подробная <a href="http://www.windowsphone.com/ru-RU/how-to/wp8/apps/get-apps-from-the-store">инструкция</a> по тому, как загружать<br /> приложения из магазина Windows Phone.</span>
+						</div>
+
+
+						
+						<div class="div_less_640"><img src="/image/circle.png" alt="" /></div>
+						<h2>Не разобрались? <span class="br_less_640"><br />Позвоните нам</span></h2>
+						<p class="bottom_phone"><span class="br_more_640">Позвоните нам:</span> <font style="color:#fff;">8 800 700-19-44</font></p>
+
+						
+						
+						<div class="div_less_640"><img src="/image/usloviya.png" alt="" /></div>
+						<h2>Условия программы</h2>
+						<p>Ознакомьтесь с подробным описанием <a href="http://inventive.ru/bonuses/" target="_blank">бонусной программы.</a></p>
+					</div>
+				</div>	
+				<div class="copyright">© Inventive Retail Group, 2014</div>
+			</section> 
+		</div>
+	</div>
+
+</body>
+</html>

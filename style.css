@@ -1,0 +1,151 @@
+
+html, body { margin: 0;  padding: 0;  width:100%; }
+body{min-width:640px; font-family:"HelveticaNeue", Arial, sans-serif; }
+
+.clear {display:block; clear:both; height:1px; font-size:1px; line-height:1px; margin-bottom:-1px; float:none!important; width:100%!important;  }
+img{border:0;}
+li,ul{margin:0; padding:0; list-style:none;}
+#passbook{background:url(/image/passbook_bg.png) center top repeat-x #333;}
+
+#body{	min-height:650px; width:680px; padding:14px 10px 17px; margin:0 auto;}
+
+#header{padding:45px 10px 15px; width:680px;  margin:0 auto;}
+
+
+#logo{ float:left; padding:0 25px 0 0; }
+#logo a{display:block; width:82px; height:81px; background:url(/image/logo_small.png) left top no-repeat; }
+
+#top_info{ padding:0 0 0 0; float:left;}
+#top_info h1{padding:0; margin:18px 0 0 0; color:#fff; font-size:38px; font-weight:normal; }
+
+.br_less_640{display:none;}
+.div_less_640{display:none;}
+
+.duplicat_text{margin:0 0 0 110px; font-size:18px; color:#8cb4c8; line-height:24px;}
+.duplicat_text span{color:#fff;}
+
+.phones{ margin:55px auto 12px ; width:630px; height:433px; background:url(/image/phones_bigl.png) center top no-repeat;}
+
+.brand_icons ul{float:left;  margin-top:15px;}
+.brand_icons li {padding:8px 0 10px; float:left; border-right: 2px solid #3e3e3e; cursor:pointer;}
+.brand_icons li span{display:block; width:222px;  height:87px;  }
+.brand_icons li:first-child{border-left:2px solid #3e3e3e;}
+
+.brand_icons li.ios_logo span{background:url(/image/ios_icon_small.png) center bottom no-repeat; }
+.brand_icons li.ios_logo.current  span{background-position:center top;}
+
+.brand_icons li.android_logo span{background:url(/image/android_icon_small.png) center bottom no-repeat; }
+.brand_icons li.android_logo.current  span{background-position:center top;}
+
+.brand_icons li.windows_logo span{background:url(/image/windows_icon_small.png) center bottom no-repeat;  }
+.brand_icons li.windows_logo.current span{background-position:center top;}
+
+.box { display:none; }
+.box.visible { display:block; }
+
+.text h2{font-size:38px; color:#fff; font-weight:normal; padding:0; margin:60px 0 20px 0;}
+.text h2.first{margin-bottom:35px;}
+
+.text a{color:#2699d3; text-decoration:underline;}
+.text a:hover{text-decoration:none;}
+
+.text p, .text li{font-size:18px;  color:#c1c1b9;}
+.text p{margin:0 0 20px 0;}
+
+.text ul{margin-bottom:20px; float:left;}
+.text li {float:left; clear:both;}
+.text li span{display:inline-block; float:left;margin-left:8px;}
+.text li strong{display:inline-block; float:left;}
+
+.text .div_img a.download{width:120px; height:40px; float:left; display: block; margin-right:25px; margin-top:2px; }
+.text .div_img a.download.download_img{background:url(/image/download_img.png) left top no-repeat;} 
+.text .div_img a.download.add_passbook{background:url(/image/add_passbook_img.png) left top no-repeat;} 
+
+.text .div_img {color:#656565; font-size:18px; margin-bottom:20px; clear:both;}
+.text .div_img_big{display:none;}
+
+.copyright{color:#656565; font-size:16px; margin:50px 0 70px 0;}
+
+
+
+
+
+@media screen and (max-width:720px) {
+#header{ width:586px; padding:50px 27px 0 27px; margin:0 auto; overflow:hidden;}
+#wrap_header{margin-left:45px;} 
+#body{width:586px; padding-left:27px; padding-right:27px;  overflow:hidden;}
+
+
+#passbook{background:url(/image/passbook_bg_640.png) center top repeat-x #333;}
+#logo{padding-right:25px;}
+#logo a{display:block; width:99px; height:99px; background:url(/image/logo.png) left top no-repeat; }
+
+#top_info {max-width:400px;}
+#top_info h1{ font-size:43px; margin-top:0px; }
+
+
+.brand_icons ul{float:left; padding-left:0; margin-top:20px}
+.brand_icons li {padding:8px 0 10px; float:left; border-right: 2px solid #3e3e3e;}
+.brand_icons li span{display:block; width:190px;  height:122px;     }
+.brand_icons li:first-child{border-left:2px solid #3e3e3e;}
+
+.brand_icons li.ios_logo span{background:url(/image/ios_icon.png) center bottom no-repeat; }
+.brand_icons li.ios_logo.current  span{background-position:center top;}
+
+.brand_icons li.android_logo span{background:url(/image/android_icon.png) center bottom no-repeat; }
+.brand_icons li.android_logo.current  span{background-position:center top;}
+
+.brand_icons li.windows_logo span{background:url(/image/windows_icon.png) center bottom no-repeat; width:197px; }
+.brand_icons li.windows_logo.current  span{background-position:center top;}
+
+
+.br_more_640{display:none;}
+.br_less_640{display:inline;}
+
+.div_less_640{display:block; text-align:center; margin-top:85px;}
+
+.mobile_left_margin{margin-left:45px;}
+
+.duplicat_text{margin:20px 0 0 0px; font-size:28px; color:#8cb4c8; line-height:33px;}
+.duplicat_text span{color:#fff;}
+
+.phones{width:531px; height:365px; margin-top:30px; margin-left:-12px; background:url(/image/phones_small.png) left top no-repeat;}
+
+
+.text h2{margin-top:10px; font-size:60px; text-align:center;}
+.text p{text-align:center; font-size:27px; margin-bottom:35px;}
+.text ul{ float:none;}
+.text li {float:none; clear:both; text-align:center; margin-top:20px; padding-top:20px; background:url(/image/li_bg.png) center top no-repeat;}
+.text li:first-child{margin-top:0; padding-top:0; background:none;}
+.text li span{float:none; margin:0;font-size:27px;}
+.text li strong{display:none; float:none;}
+
+.text .div_img_big{display:block; text-align:center; margin:65px 0 55px;}
+.text .bottom_phone{padding:20px; font-size:65px; border-radius:10px; border:5px solid #019128;width:500px; margin:0 auto; cursor:pointer;}
+.text .bottom_phone font:hover{color:#fff; text-decoration:none;}
+
+.box { display:none; }
+.box.visible { display:block; }
+
+
+.text.ios  .div_img a.download{display:none;}
+.text.windows  .div_img{margin-top:50px;text-align:center;}
+.text.windows  .div_img a.download {float:none; margin:60px auto 0; width:240px; height:80px; }
+.text.windows .div_img a.download.download_img{background:url(/image/download_img_big.png) left top no-repeat;} 
+.text.windows  .div_img a.download.add_passbook{background:url(/image/add_passbook_img_big.png) left top no-repeat; margin-bottom:35px;} 
+.text.windows .div_img span{font-size:27px; }
+
+
+
+
+.copyright{font-size:27px; text-align:center;}
+
+}
+
+
+
+
+
+
+
+
